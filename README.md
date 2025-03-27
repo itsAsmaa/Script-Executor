@@ -30,7 +30,7 @@ Make sure to have them installed before running the script.
 
 ## Setup and Execution
 
-1. **Download the script**: Download the Python script `script_executor.py`.
+1. **Download the script**: Download the Python script `executorFinal.py`.
 
 2. **Create a configuration file** (`config.json`):
    - The configuration file must contain the following fields:
@@ -52,7 +52,7 @@ Make sure to have them installed before running the script.
 3. **Run the script**:
    - Use the command below to run the script:
      ```bash
-     python script_executor.py -i <input_script_file> -o <output_directory>
+     python executorFinal.py -i <input_script_file> -o <output_directory>
      ```
    - Replace `<input_script_file>` with the path to your script that contains the list of commands to execute.
    - Replace `<output_directory>` with the directory where the output log files will be stored.
